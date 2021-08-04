@@ -1,6 +1,15 @@
 # Overview
 This repository contains all the code needed to complete the final project for the Localization course in Udacity's Self-Driving Car Nanodegree.
 
+[//]: # (Image References)
+
+[image1]: ./results/uml_particl_filter.png "uml particle filter class diagram"
+[image1a]: ./results/result_num_particle_filters_30.png "30 particle filters"
+[image1b]: ./results/result_num_particle_filters_45.png "45 particle filters"
+[image1c]: ./results/result_num_particle_filters_55.png "55 particle filters"
+[image1d]: ./results/result_num_particle_filters_75.png "75 particle filters"
+[image1e]: ./results/result_num_particle_filters_100.png "100 particle filters"
+
 #### Submission
 All you will need to submit is your `src` directory. You should probably do a `git pull` before submitting to verify that your project passes the most up-to-date version of the grading code (there are some parameters in `src/main.cpp` which govern the requirements on accuracy and run time).
 
@@ -105,16 +114,25 @@ root
 |   
 |   
 |___src
-    |   helper_functions.h
-    |   main.cpp
-    |   map.h
-    |   particle_filter.cpp
-    |   particle_filter.h
+|   |   helper_functions.h
+|   |   main.cpp
+|   |   map.h
+|   |   particle_filter.cpp
+|   |   particle_filter.h
+|___src
+    |   result_num_particle_filters_30.png
+    |   result_num_particle_filters_45.png
+    |   result_num_particle_filters_55.png
+    |   result_num_particle_filters_75.png
+    |   result_num_particle_filters_100png   
 ```
 
 The only file you should modify is `particle_filter.cpp` in the `src` directory. The file contains the scaffolding of a `ParticleFilter` class and some associated methods. Read through the code, the comments, and the header file `particle_filter.h` to get a sense for what this code is expected to do.
 
 If you are interested, take a look at `src/main.cpp` as well. This file contains the code that will actually be running your particle filter and calling the associated methods.
+
+# Particle filter class diagram
+![alt text][image1]
 
 ## Inputs to the Particle Filter
 You can find the inputs to the particle filter in the `data` directory.
@@ -139,5 +157,15 @@ The things the grading code is looking for are:
 
 2. **Performance**: your particle filter should complete execution within the time of 100 seconds.
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
+### Performance results
+
+## Result - 30 particle filters
+![alt text][image1a]
+## Result - 45 particle filters
+![alt text][image1b]
+## Result - 55 particle filters
+![alt text][image1c]
+## Result - 75 particle filters
+![alt text][image1d]
+## Result - 100 particle filters
+![alt text][image1e]
