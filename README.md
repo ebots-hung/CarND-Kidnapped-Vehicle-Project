@@ -3,7 +3,7 @@ This repository contains all the code needed to complete the final project for t
 
 [//]: # (Image References)
 
-[image1]: ./results/uml_particl_filter.png "uml particle filter class diagram"
+[image1]: ./results/uml_particle_filter.png "uml particle filter class diagram"
 [image1a]: ./results/result_num_particle_filters_30.png "30 particle filters"
 [image1b]: ./results/result_num_particle_filters_45.png "45 particle filters"
 [image1c]: ./results/result_num_particle_filters_55.png "55 particle filters"
